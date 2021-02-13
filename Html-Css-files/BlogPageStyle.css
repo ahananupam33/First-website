@@ -1,0 +1,49 @@
+﻿.img-right{
+	float: right;
+}
+p{
+	text-align: justify;
+}
+
+header{
+	background-color: #a6f5ec;
+	padding: 20px 0;
+}
+
+main{
+	background-color: #d5e3de;
+	padding: 20px;
+	font-size: 20px;
+}
+
+body{
+	margin: 0px;
+}
+
+.intro{
+	margin-bottom: 30px;
+}
+
+.column {
+  	float: left;
+  	padding: 5px;
+  	width: 50%;
+}
+
+.row::after {
+  	content: "";
+  	clear: both;
+  	display: table;
+}
+
+.img-set{
+	width: 100%;
+  	height: auto;
+}   
+
+.label-style{
+	text-align: center;
+	color: #1a5cc7;
+	font-weight: bold;
+	font-style: italic;
+}
