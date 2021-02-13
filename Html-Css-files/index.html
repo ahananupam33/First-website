@@ -8,6 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
+    <link href="H:\Web_dev\First-website\Html-Css-files\BlogPageStyle.css" rel="stylesheet">
     <title>The-Game-of-Football</title>
     <style>
         h1{
@@ -16,34 +17,116 @@
 		}
         h2{
               color:brown;
+              margin-top: 40px;
+		}
+        h3{
+              color:#eb672a;  
+              margin-top: 25px;
 		}
     </style>
   </head>
   <body>
     <!-- Write your code here -->
-    <h1 class="text-center">Football</h1>
-    <p><em>This is my first blog so after thinking long and hard, I decided to write about football because I had to choose something that goes in my list of favourite stuff,
-    so here goes and I hope you guys enjoy reading it</em>.</p>
-    
-    <img src="H:\HTML_imgs\Football_1.jpg" alt="">
-    <h2>What is it?</h2>
-    <p>The first question in almost every blog,topic that needs to be answered!!!</p>
-    <p>Well in short, football is one of the <strong>most popular and exciting sport</strong> on the planet today. The <em>football fever</em> as it is called, has spread all over the world.
-    From children playing with flimsy balls on the streets to professional players honing their skills on the pitch, the love and passion for the game is the same. Other than the traditional 11 
-    players-a-side format, football has various other forms like <em>beach football, futsal, street football, etc</em>. </p>
-    <p>The first football league was established way back in <strong>1888 in England</strong>. Nowadays, we have over a <strong>1000 leagues</strong> all over the world of which around 200 have been given official recognition 
-    by <strong>FIFA (Federation Internationale de Football Association)</strong> which is the international governing body of association football. Popular leagues like the Premier League, La 
-    Liga, and others generate huge revenues through high views and sponsorships. Clubs like <strong>FC Barcelona, Real Madrid, Manchester United and others</strong> have huge fan following all over the world 
-    <em>including me (a Barca fan)</em>. This has given an opportunity to many to earn their livelihood while doing what they love.</p>
+    <div class="container-fluid">
+        <header>
+        <h1 class="text-center">Football</h1>
+        </header>
 
-    <h2>How is it played?</h2>
-    <p><em>I won't delve too much into the details because this is a blog not a book</em>. Essentially as compared to many other sports where you need expensive equipment to get going, you don't need 
-    anything expensive for football. The basic stuff needed are <em>a ball, two pairs of goalposts (it can even be <strong>two bricks</strong>), a suitably playable ground and some friends</em> 
-    to get going. The aim is to score more goals than your opponents within a stipulated time. A goal is scored when the ball is kicked or headed into the opponent's goal. The team with the most
-    goals after the stipulated time wins the game.</p>
-    <p>In professional games, this stipulated time is <strong>90 minutes</strong> with an <strong>extra 30 minutes</strong> in case both sides have the same goals after 90 minutes. If the game is still undecided, the game is 
-    decided on <em>penalties</em>, where both sides get <strong>5 shots on goal from 12 yards out</strong>. The team with most penalties converted wins. If both sides have same conversions, then the game heads to sudden death
-    where both teams keep taking penalties until one team misses.</p>
+        <main>
+        <div class="intro">
+            <p><em>This is my first blog so after thinking long and hard, I decided to write about football because I had to choose something that goes in my list of favourite stuff,
+            so here goes and I hope you guys enjoy reading it</em>.</p>
+            <p style="text-align: right;"><em>-Ahan Anupam</em></p>
+        </div>
+        
+        <img class="img-right" src="H:\Web_dev\First-website\Images\Football_1.jpg" alt="" style="padding-left:20px">
+        <h2>What is it?</h2>
+        <p>The first question in almost every blog or topic that needs to be answered!!!</p>
+        <p>Well in short, football is one of the <strong>most popular and exciting sport</strong> on the planet today. The <em>football fever</em> as it is called, has spread all over the world.
+        From children playing with flimsy balls on the streets to professional players honing their skills on the pitch, the love and passion for the game is the same. Other than the traditional 11 
+        players-a-side format, football has various other forms like <em>beach football, futsal, street football, etc</em>. </p>
+        <p>The first football league was established way back in <strong>1888 in England</strong>. Nowadays, we have over a <strong>1000 leagues</strong> all over the world of which around 200 have been given official recognition 
+        by <strong>FIFA (Federation Internationale de Football Association)</strong> which is the international governing body of association football. Popular leagues like the Premier League, La 
+        Liga, and others generate huge revenues through high views and sponsorships. Clubs like <strong>FC Barcelona, Real Madrid, Manchester United and others</strong> have huge fan following all over the world 
+        <em>including me (a Barca fan)</em>. This has given an opportunity to many to earn their livelihood while doing what they love.</p>
+     
+        <h2>How is it played?</h2>
+        <p><em>I won't delve too much into the details because this is a blog not a book</em>. Essentially as compared to many other sports where you need expensive equipment to get going, you don't need 
+        anything expensive for football. The basic stuff needed are <em>a ball, two pairs of goalposts (it can even be <strong>two bricks</strong>), a playable ground and some friends</em> 
+        to get going. The aim is to score more goals than your opponents within a stipulated time. A goal is scored when the ball is kicked or headed into the opponent's goal. The team with the most
+        goals after the stipulated time wins the game.</p>
+        <p>In professional games, <strong>11 players</strong> play for each side in a certain formation with 3 substitutions allowed within the duration of a match. The stipulated time is <strong>90 minutes with 2 halves of 45 minutes</strong> and an <strong>extra 30 minutes</strong> in case both sides have the same goals after 90 minutes. If the game is still undecided, the game is 
+        decided on <em>penalties</em>, where both sides get <strong>5 shots on goal from 12 yards out</strong>. The team with most penalties converted wins. If both sides have same conversions, then the game heads to sudden death
+        where both teams keep taking penalties until one team misses.</p>
+
+        <h2>Different positions</h2>
+        <p>There are actually four main positions in football namely, forwards, midfielders, defenders and the goalkeeper. All these positions other than the goalkeeper have further subdivisions as well based 
+        on exact position on the pitch.</p>
+        <ol>
+            <li><a href="#Forward">Forwards</a></li>
+            <li><a href="#Midfielder">Midfielders</a></li>
+            <li><a href="#Defender">Defenders</a></li>
+            <li><a href="#Goalie">Goalkeeper</a></li>
+        </ol>
+        <p>The different types in each of the first three positions are used on the basis of team formations and tactics as per the game situation. The goalkeeper is usually considered
+        as a part of defenders but I have mentioned it separately. <em>Note that you can click on the positions above to directly navigate to the respective position.</em></p>
+
+        <h3 id="Forward">Forwards</h3>
+        <p>Forwards spearhead the attack of their team. Their main responsibility is to <strong>take the ball forward and score goals</strong>. They also play an important role in <em>creating chances and 
+        taking set pieces i.e. free kicks and penalties</em>. Usually teams play with 3 forwards i.e <strong>one striker/central forward and two wingers</strong>. The wingers need to be speedy and create ample
+        goal scoring chances by passing and sending crosses into the opponent's penalty box. This position has seen some phenomenal players over the decades. <strong>Cristiano Ronaldo</strong> and <strong>Lionel 
+        Messi</strong>, arguably the two greatest players of all time are known for their goal scoring and assisting prowess. CR7, as he is more popularly known used to play as a traditional left 
+        winger but in recent times he has operated more as a central forward which has increased his output in terms of goals. Lionel Messi used to play as a forward at the start of his 
+        career but was deployed as a left winger where he could cut into the middle to create chances and score goals. In recent years, Messi has settled for a deeper role as more of an attacking 
+        midfielder.</p>
+        <div class="row">
+        <figure>
+            <div class="column"><img src="H:\Web_dev\First-website\Images\Lionel_Messi.jpg" alt="" style="width:100%; height:auto"><figcaption class="label-style">Lionel Messi</figcaption></div>
+            <div class="column"><img src="H:\Web_dev\First-website\Images\Cristiano-Ronaldo.jpeg" alt="" style="width:100%; height:auto"><figcaption class="label-style">Cristiano Ronaldo</figcaption></div>
+        </figure>
+        </div>
+
+        <h3 id="Midfielder">Midfielders</h3>
+        <p>Midfielders form the key link between attack and defense. Along with <strong>passing and moving the ball up the field and creating chances</strong> for the forwards, they also help in the defense.
+        The positions include attacking midfielders and defensive midfielders. A good attacking midfielder needs <em>good passing abilities, vision, the ability to make long shots, and solid dribbling skills.
+        They should be able to read the defense and deliver defense spliting passes</em>. A good defensive midfielder needs <em>good positional awareness, anticipation of opponent's play, marking, tackling, 
+        interceptions, passing and great stamina and strength (for their tackling)</em>. Famous players like <strong>Andres Iniesta</strong> and <strong>Andrea Pirlo</strong> were known for their dribbling and pin point passing skills.
+        Others like <strong>Sergio Busquets, Patrick Viera</strong>, and more were defensive minded. The real advantage of midfielders stems from the fact that attacking midfielders can provide an extra man in
+        attack while defensive midfielders can drop back into defense.</p>
+        <div class="row">
+        <figure>
+            <div class="column"><img src="H:\Web_dev\First-website\Images\Iniesta.jpeg" alt="" style="width:100%; height:auto"><figcaption class="label-style">Andres Iniesta</figcaption></div>
+            <div class="column"><img src="H:\Web_dev\First-website\Images\Pirlo.jpeg" alt="" style="width:100%; height:auto"><figcaption class="label-style">Andrea Pirlo</figcaption></div>
+        </figure>
+        </div>
+
+        <h3 id="Defender">Defenders</h3>
+        <p>The main objective of defenders is to <strong>prevent the opponents from scoring goals by tackling the ball away from them or by intercepting passes</strong>.They also need to clear the ball away
+        from their own goal and help the goalkeeper. The positions mostly seen are the <em>central backs</em> and <em>full backs</em>. The central backs are the walls of the defense and <em>need to have good 
+        tackling and intercepting skills along with the ability to find teammates with long passes</em>. The full backs need to have <em>good passing skills as they are responsible for passing to the 
+        wingers and sending in crosses or taking corner kicks</em>. They need good fitness and stamina as they have to cover the most ground usually. <strong>Dani Alves, Phillip Lahm, Roberto Carlos</strong> are some well known
+        full backs while <strong>Sergio Ramos and Paolo Maldini</strong> are some of the central back legends of the game.</p>
+        <div class="row">
+        <figure>
+            <div class="column"><img src="H:\Web_dev\First-website\Images\RCarlos.jpeg" alt="" style="width:100%; height:auto"><figcaption class="label-style">Roberto Carlos</figcaption></div>
+            <div class="column"><img src="H:\Web_dev\First-website\Images\Maldini.jpeg" alt="" style="width:100%; height:auto"><figcaption class="label-style">Paolo Maldini</figcaption></div>
+        </figure>
+        </div>
+        
+        <h3 id="Goalie">Goalkeeper</h3>
+        <p>Arguably, the most important role in the team is that of a goalkeeper <em>(the reason why I wrote it separately)</em>. A goalkeeper is the final line of defense and his primary role is to <strong>prevent the opponents from scoring at 
+        all costs including the use of hands</strong>. In the high pressure situation of a penalty shootout it is the goalkeeper who can decide the game. Alongside the <em>abilities of good vision and reflexes, he also needs good 
+        passing and shooting skills to send the ball to the correct player at the right time</em>. Some goalies like <strong>Manuel Neuer</strong> also act as <em>sweeper keepers</em> with their ability to anticipate their opponents run and rush 
+        forward to intercept passes. Other such goalkeepers include <strong>Edwin van der Saar, Victor Valdes</strong> and many more. Legendary goalkeepers include <strong>Lev Yashin, Olivier Kahn, Gianluigi Buffon</strong> 
+        and many more.</p>
+        <div class="row">
+        <figure>
+            <div class="column"><img src="H:\Web_dev\First-website\Images\Neuer.jpeg" alt="" style="width:100%; height:auto"><figcaption class="label-style">Manuel Neuer</figcaption></div>
+            <div class="column"><img src="H:\Web_dev\First-website\Images\Buffon.jpeg" alt="" style="width:100%; height:auto"><figcaption class="label-style">Gianluigi Buffon</figcaption></div>
+        </figure>
+        </div>
+        </main>
+    </div>
 
  
     
